@@ -3,7 +3,7 @@
 # TODO-3: Whether if new bids need to be added
 # TODO-4: Compare bids in dictionary
 
-from art import logo
+from Blind_auction_art import logo
 
 print(logo)
 
