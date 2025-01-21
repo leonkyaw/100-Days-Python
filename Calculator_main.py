@@ -1,6 +1,6 @@
-import art
+from Calculator_art import logo
 
-print(art.logo)
+print(logo)
 
 def add(n1, n2):
     return n1 + n2
