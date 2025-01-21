@@ -1,5 +1,5 @@
 import random
-from art import logo
+from Blackjack_art import logo
 
 # TODO 1: Determine the rule of the game
 
