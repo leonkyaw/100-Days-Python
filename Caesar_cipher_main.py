@@ -20,7 +20,7 @@ def caesar(original_text, shift_amount, encode_or_decode):
             output_text += letter
         else:
             shifted_position = alphabet.index(letter) + shift_amount  # option the index of current alphabet + the shift
-            shifted_position %= len(alphabet)  # to the position beyond alpha length, eg: shift "z" by one >> shit to a
+            shifted_position %= len(alphabet)  # to the position beyond alpha length, eg: shift "z" by one >> shift to a
             output_text += alphabet[shifted_position]
     print(f"Here is the {encode_or_decode}d result: {output_text}")
 
