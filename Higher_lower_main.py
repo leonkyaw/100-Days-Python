@@ -1,6 +1,6 @@
 # import packages
-from art import logo, vs
-from game_data import data
+from Higher_lower_art import logo, vs
+from Higher_lower_game_data import data
 from random import randint
 
 # TODO 1: to pick the random personnel to compare.
