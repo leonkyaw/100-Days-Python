@@ -1,1 +1,1 @@
-This game is inspired from snake game on Nokia phone.
+This game is inspired from classic snake game on Nokia keypad phone.
