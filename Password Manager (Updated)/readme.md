@@ -1,1 +1,4 @@
-
+- This is the updated password manager
+- Previous Version: saved the password and generate random password.
+- New Version: search email and password of existing website in Json file, exception handling is used.
+- Library: tkinter, random, pyperclip, json
