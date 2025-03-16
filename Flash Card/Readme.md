@@ -1,0 +1,4 @@
+- This piece of work is french language flashcard, it is use to test 100 most frequently use words.
+- 3 seconds timer and if can't guess within the allocated time frame, the unanswer in English word will be shown.
+- if you know specific word, that word will be removed from file and new file called 'Words to be learn' will be created.
+- Library used: Tkinter, Random, Pandas
