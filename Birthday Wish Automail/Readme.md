@@ -1,0 +1,3 @@
+- This code will read the name list file in csv and check if anyone birthday is today then will automatically send a birthday wish using pre-build template file with customized name.
+- The code is running on cloud "PythonAnywhere" and check daily to send automated email.
+- Library: smtplib, random, pandas, datetime
