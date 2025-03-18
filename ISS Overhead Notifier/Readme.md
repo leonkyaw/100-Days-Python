@@ -1,0 +1,6 @@
+- This code will check whether ISS (International Space Station) is above our head so that we can spot in the night sky.
+- This code will check whether ISS is within distance and if it is night time. When the conditions are true, it will send the email notification.
+- The code will check every 60 seconds.
+- Location of ISS is obtained from this API "http://api.open-notify.org/iss-now.json"
+- sunset and sunrise time is obtained from this API "https://api.sunrise-sunset.org/json"
+- Library: time, smtplib, requests, datetime.
