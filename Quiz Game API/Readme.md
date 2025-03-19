@@ -1,0 +1,4 @@
+- This is the quiz game obtained API from https://opentdb.com/api_config.php
+- The game is created using Object oriented programming and having UI.
+- Upgraded from previous Quiz Game
+- Library: tkinter, requests.
