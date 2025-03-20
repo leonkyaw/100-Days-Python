@@ -1,0 +1,4 @@
+- This project will obtain weather data from OpenWeatherMap API [https://openweathermap.org/] and check if it is rainning 12 hours from 7:00am
+- Then sent a reminder to bring an umbrella using Twilio API [https://www.twilio.com/en-us]
+- The code will run automatically on 7:00am melbourne time on Pythonanywhere.
+- Library: os, requests, twilio
