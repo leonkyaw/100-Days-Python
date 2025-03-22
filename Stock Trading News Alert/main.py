@@ -5,7 +5,7 @@ import os
 # STOCK API
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-STOCK_API_KEY = 'X5HHW7JJAOW5VG5T'
+STOCK_API_KEY = os.environ.get("STOCK_API_KEY")
 STATE = 'us'
 FUNCTION = 'TIME_SERIES_DAILY'
 
@@ -16,14 +16,14 @@ parameters = {
 }
 
 # NEW API
-NEWS_API_KEY = '59926d348b8d44ee8a855ed3c9b2d21a'
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 parameters1 = {
     'qInTitle': COMPANY_NAME,
     'apiKey': NEWS_API_KEY,
 }
 
 # MESSAGE
-account_sid = "AC18de9630e7a823ca63319ed99da6dd84"
+account_sid = os.environ.get("TWILIO_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 
 # STEP 1: Use https://www.alphavantage.co
@@ -60,8 +60,8 @@ if abs(change_in_price) > 0.05:
     for article in formatted_article:
         message = client.messages.create(
             body=f"{STOCK}:{up_down}{percentage_change_in_price}%\n{article}",
-            from_="+14234416753",
-            to="+61467865528")
+            from_=os.envrion.get("SENDER_NUM"),
+            to=os.envrion.get("RECEIVER_NUM"))
 
 #Optional: Format the SMS message like this: 
 """
