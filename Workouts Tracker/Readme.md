@@ -1,0 +1,4 @@
+- This will take user input (eg: I ran 5km and I swam 20 minutes) to keep track of workout routine, number of calories burnt and type of workout by using API from Nutritionix [https://www.nutritionix.com/business/api]
+- This will then update the google sheet using Sheetly API.
+- The app is deployed here [https://replit.com/@leonpython4/Google-workouts]
+- Library: datetime, requests, os
