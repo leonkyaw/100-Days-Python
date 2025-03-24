@@ -1,0 +1,3 @@
+- This project is using API from Pixela [https://pixe.la/]
+- This project will post, update and delete the data point which track number of hour spent a day coding.
+- Library: datetime, requests.
