@@ -1,0 +1,3 @@
+- This project obtained flight data from Amandeus [https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-search/api-reference] of the cities of interested on google sheet using Sheety API.
+- This code then check all the cheapest flight for the citites interested and send an email and sms alert
+- Library: Twilio, time, smtp, requests, os, datetime, dotenv, pprint
