@@ -1,4 +1,4 @@
-from Number_guessing_art import logo
+from number_guessing_art import logo
 import random
 
 
