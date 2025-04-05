@@ -35,7 +35,7 @@
   <li>Day 32 - <a href="./Day 32">Send Email (smtplib) & Manage Dates (datetime)</a></li>
   <li>Day 33 - <a href="./Day 33">API Endpoints & API Parameters - ISS Overhead Notifier</a></li>
   <li>Day 34 - <a href="./Day 34">API Practice - Creating a GUI Quiz App</a></li>
-  <li>Day 35 - <a href="./Day 35">Keys, AUthentication & Environment Variables: Send SMS</a></li>
+  <li>Day 35 - <a href="./Day 35">Keys, Authentication & Environment Variables: Send SMS</a></li>
   <li>Day 36 - <a href="./Day 36">Stock Trading News Alert Project</a></li>
   <li>Day 37 - <a href="./Day 37">Habit Tracking Project: API Post Requests & Headers</a></li>
   <li>Day 38 - <a href="./Day 38">Workout Tracking Using Google Sheets</a></li>
