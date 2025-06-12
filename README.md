@@ -77,7 +77,7 @@
   <li>Day 74 - <a href="./Day 74">Aggregate & Merge Data with Pandas: Analyse the LEGO Dataset</a></li>
   <li>Day 75 - <a href="./Day 75">Google Trends Data: Resampling and Visualising Time Series</a></li>
   <li>Day 76 - <a href="./Day 76">Beautiful Plotly Charts & Analysing the Android App Store</a></li>
-  <li>Day 77 - <a href="./Day 77">Computation with Numpyu and N-Dimensional Arrays</a></li>
+  <li>Day 77 - <a href="./Day 77">Computation with Numpy and N-Dimensional Arrays</a></li>
   <li>Day 78 - <a href="./Day 78">Linear Regression and Data Visualization with Seaborn</a></li>
   <li>Day 79 - <a href="./Day 79">Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn</a></li>
   <li>Day 80 - <a href="./Day 80">The Tragic Discovery of Handwashing: t-Tests & Distributions</a></li>
